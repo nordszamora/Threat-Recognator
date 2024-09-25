@@ -22,7 +22,7 @@ The model can classify into a unexpected False positive & False negative.
 
 - **Frontend:** ReactJS with Vite
 - **Backend:** Flask
-- **ML lib** Scikit-Learn
+- **ML lib:** Scikit-Learn
 - **Deployment:** Vercel (frontend) and PythonAnywhere (backend)
 
 ### Getting Started
