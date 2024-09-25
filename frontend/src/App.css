@@ -1,0 +1,28 @@
+.banner {
+  color: #000000; 
+  background-image: -webkit-linear-gradient(45deg, #C72C41 51%, #ffffff 32%); 
+  background-clip: text; 
+  font-size: 56px;
+  font-weight: bold;
+  -webkit-background-clip: text; text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
+}
+.nav-link {
+  background-color: #5555;
+  color: #ffffff;
+}
+.custom-nav-link-url {
+  border-radius: 20px 0 0 20px !important;
+}
+.custom-nav-link-corpus {
+  border-radius: 0 20px 20px 0 !important;
+}
+.nav .active {
+  background-color: #E7E7E7 !important;
+  color: #000000 !important;
+}
+@media(max-width: 375px) {
+  .banner {
+      font-size: 34px;
+  }
+}

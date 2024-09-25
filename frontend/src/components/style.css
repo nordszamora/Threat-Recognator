@@ -1,0 +1,36 @@
+.form-control {
+    width: 18rem !important;
+    box-shadow: none !important;
+    background: none !important;
+    outline: none;
+    color: #ffffff !important;
+}
+.form-control::placeholder {
+    color: #808080;
+}
+.form-control:disabled {
+    background-color: #5555 !important;
+    color: #808080 !important;
+}
+.prediction {
+    background-color: #333;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 240px;
+    text-align: center;
+    padding: 10px;
+}
+.custom-corpus-input {
+    resize: none;
+}
+.custom-corpus-btn {
+    width: 100%;
+}
+@media(max-width: 375px) {
+    .form-control {
+        width: 12rem !important;
+    }
+    .custom-corpus-input {
+        width: 16rem !important
+    }
+}
